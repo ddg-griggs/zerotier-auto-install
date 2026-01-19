@@ -19,18 +19,18 @@ sudo apt update && sudo apt upgrade
 ```bash
 curl -s https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh | sudo bash -s [ВАШ_NETWORK_ID]
 ```
-##Пример:
+## Пример:
 ```bash
 curl -s https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh | sudo bash -s a1a2a3a4a5a6a7
 ```
-##Что сделать после установки
+## Что сделать после установки
 1. Перейдите в панель управления https://my.zerotier.com/.
 2. Найдите новое устройство в списке Members и поставьте галочку Auth (Авторизовать).
 3. Прокрутите вверх до раздела Routes (Маршруты) и добавьте маршрут для выхода в интернет:
    * Destination: `0.0.0.0/0`
    * Via: `IP-адрес этого устройства` (возьмите IP из колонки Managed IPs в списке устройств).
 
-##Решение проблем
+## Решение проблем
 Если интернет работает, но YouTube или Gemini "висят":
 
 1. Убедитесь, что скрипт отработал без ошибок.
