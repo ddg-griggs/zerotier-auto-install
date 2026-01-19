@@ -1,10 +1,13 @@
-# ZeroTier VPN Auto-Installer
+ZeroTier Router - Автоматическая настройка VPN маршрутизатора
+![ZeroTier](https://img.shields.io/badge/ZeroTier-VPN-blue)
+![Shell Script](https://img.shields.io/badge/Shell_Script-Bash-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Автоматический скрипт для настройки Linux-сервера (VPS) в качестве VPN-шлюза через ZeroTier.
+Полная автоматизация настройки ZeroTier в качестве VPN-шлюза для доступа к интернету через виртуальную машину или сервер.
 
 ## Особенности
-- Автоматическая установка ZeroTier.
-- Настройка NAT (IP Masquerade).
+- Автоматическая установка и подключение к сети ZeroTier.
+- Настройка IP-форвардинга и NAT (маскарадинг).
 - **Fix для Gemini/YouTube:** Включает `TCPMSS clamp`, чтобы исправить проблемы с зависанием соединения и MTU на мобильных устройствах.
 - Сохранение правил iptables после перезагрузки.
 
