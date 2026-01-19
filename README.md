@@ -15,12 +15,13 @@
 ```bash
 sudo apt update && sudo apt upgrade
 ```
+
 ```bash
 curl -s https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh | sudo bash -s [ВАШ_NETWORK_ID]
 ```
-#Пример:
+##Пример:
 ```bash
-curl -s [https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh](https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh) | sudo bash -s a1a2a3a4a5a6a7
+curl -s https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh | sudo bash -s a1a2a3a4a5a6a7
 ```
 ##Что сделать после установки
 1. Перейдите в панель управления https://my.zerotier.com/.
