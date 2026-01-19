@@ -1,7 +1,8 @@
-ZeroTier Router - Автоматическая настройка VPN маршрутизатора
 ![ZeroTier](https://img.shields.io/badge/ZeroTier-VPN-blue)
 ![Shell Script](https://img.shields.io/badge/Shell_Script-Bash-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
+# ZeroTier Router - Автоматическая настройка VPN маршрутизатора
 
 Полная автоматизация настройки ZeroTier в качестве VPN-шлюза для доступа к интернету через виртуальную машину или сервер.
 
