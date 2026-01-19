@@ -14,4 +14,4 @@
 
 ```bash
 sudo apt update && sudo apt upgrade
-curl -s [https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh](https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh) | sudo bash -s [ВАШ_NETWORK_ID]
+curl -s https://raw.githubusercontent.com/ddg-griggs/zerotier-auto-install/main/setup.sh | sudo bash -s [ВАШ_NETWORK_ID]
